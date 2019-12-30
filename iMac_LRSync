@@ -1,0 +1,4 @@
+# run LRSync on iMac
+
+python3 /Volumes/Photos/bin/LRSync/LRSync.py /Users/john/Pictures/Lightroom/Main-2-2.lrcat "/Volumes/Photos/Photos/Main/MacBook LR Backup"
+open -a "Adobe Lightroom Classic"
