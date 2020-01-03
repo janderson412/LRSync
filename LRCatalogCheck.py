@@ -26,9 +26,8 @@ def get_latest_zip_backup(folder, catalog_name):
 
 
 def restore_catalog(zip_filename, catalog_filename, folder, showonly=False):
-    if showonly:
-        print(f'Restoring {catalog_filename} from {zip_filename} to folder {folder}')
-    else:
+    print(f'Restoring {catalog_filename} from {zip_filename} to folder {folder}')
+    if not showonly:
         zipfile_to_restore = zipfile.ZipFile(zip_filename)
         zipfile_to_restore.extract(catalog_filename, folder)
 
