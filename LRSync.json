@@ -1,0 +1,10 @@
+{
+    "Johns-MBP": {
+        "catalog_folder": "/Users/johnanderson/Pictures/Main",
+        "backup_folder": "/Volumes/Photos/Photos/Main/iMac LR Backup"
+    },
+    "Johns-iMac": {
+        "catalog_folder": "/Users/john/Pictures/Lightroom",
+        "backup_folder": "/Volumes/Photos/Photos/Main/MacBook LR Backup"
+    }
+}

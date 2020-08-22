@@ -127,6 +127,7 @@ def update_catalogs(catalogfolder, backupfolder, showonly=False):
     for catalog in catalog_filenames:
         update_catalog(catalog, backupfolder, showonly)
 
+
 if __name__ == '__main__':
     system_name = os.uname()[1]
     parser = ArgumentParser()
